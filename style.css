@@ -250,3 +250,30 @@
   #introbox li {
     text-align: left;
   }
+
+  /* History */
+
+#game-history {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  
+  #game-history h2 {
+    margin: 55px 0 15px 0;
+    font-size: 200%;
+    color: #3e8428;
+  }
+  
+  #curiositys {
+    padding: 0 clamp(8%, 100px, 10%);
+    margin: 0 auto;
+  }
+  
+  #curiositys h3 {
+    font-style: italic;
+    padding-bottom: 20px;
+  }
+  
+  #curiositys li {
+    text-align: left;
+  }
