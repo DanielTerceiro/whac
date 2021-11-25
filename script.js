@@ -1,1 +1,8 @@
-
+const holes = document.querySelectorAll('.hole')
+const scoreBoard = document.querySelector('.score')
+const moles = document.querySelectorAll('.mole')
+const coundownnBoard = document.querySelector('.countdown')
+const startButton = document.querySelector('.startButton')
+const highscore = document.querySelector('.highscore')
+const cursor = document.querySelector('.cursor img')
+const icon = document.querySelector('.icon')
