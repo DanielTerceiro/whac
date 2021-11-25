@@ -309,3 +309,21 @@
     font-size: 150%;
     color: #fafafa;
   }
+
+  /* For medium screen sizes and down  */
+
+@media screen and (max-width: 1000px) {
+    #logo {
+      float: left;
+      font-size: 100%;
+    }
+  
+    .whac {
+      float: left;
+      height: 45px;
+      width: 45px;
+    }
+    #introbox {
+      padding: 0 100px;
+    }
+  }
