@@ -22,3 +22,13 @@ function pickRandomHole(holes) {
     lastHole = hole
     return hole
   }
+
+  function popOut() {
+    const time = Math.random() * 1200 + 400
+    const hole = pickRandomHole(holes)
+    hole.classList.add('up')
+    setTimeout(function () {
+      hole.classList.remove('up')
+      if (!timeUp) popOut()
+    }, time)
+  }
