@@ -67,16 +67,24 @@ console.log(icon)
 window.addEventListener('mousedown', () => {
   icon.classList.add('hammerRotate')
   console.log(icon)
-  // cursor.style.animation = 'hit 0.1s ease'
-  // setTimeout(() => {
-  //   cursor.style.removeProperty('animation')
-  // }, 100)
+  
 })
 window.addEventListener('mouseup', () => {
   icon.classList.remove('hammerRotate')
   console.log(icon)
-  // cursor.style.animation = 'hit 0.1s ease'
-  // setTimeout(() => {
-  //   cursor.style.removeProperty('animation')
-  // }, 100)
+  
 })
+
+function whack(e) {
+    score++
+    this.style.backgroundImage = 'url("mole2.png")'
+    this.style.pointerEvents = 'none'
+    setTimeout(() => {
+      this.style.backgroundImage = 'url("mole1.png")'
+      this.style.pointerEvents = 'all'
+    }, 900)
+  
+    scoreBoard.textContent = score
+  }
+  
+  moles.forEach((mole) => mole.addEventListener('click', whack))
