@@ -74,3 +74,152 @@
   .active {
     border-bottom: 1px solid white;
   }
+
+  /* Whac a mole Game */
+.fullgame {
+    padding-top: 50px;
+  }
+  
+  .cursor {
+    display: none;
+  }
+  
+  .icon:hover {
+    cursor: url("./hammersmall.png"), crosshair;
+  }
+  
+  .icon:hover.hammerRotate {
+    cursor: url("./hammerrotate.png"), crosshair;
+  }
+  
+  .wrapper {
+    height: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("./background.png");
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 800px;
+  }
+  .wrapper .titulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-image: url("./titulo.png");
+    background-size: contain;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+  }
+  
+  .score {
+    font-size: 150px;
+    color: #010124;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+  }
+  .highscorebox {
+    max-width: 20%;
+  }
+  
+  .countdown {
+    position: absolute;
+    top: 490px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: #010124;
+  }
+  
+  button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #010124;
+    color: aliceblue;
+    padding: 15px 35px;
+    border-radius: 5px;
+    z-index: 200;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  .game {
+    height: 400px;
+    margin: 70px auto;
+    z-index: 200;
+    display: flex;
+    max-width: 890px;
+    flex-wrap: wrap;
+  }
+  .hole {
+    flex: 1 0 33.33%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hole::after {
+    content: "";
+    display: block;
+    background-image: url("https://i.ibb.co/KFbym6L/sand1.png");
+  
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+    bottom: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .mole {
+    background-image: url("https://i.ibb.co/WKxs0Hs/mole1.png");
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  
+  .mole.small {
+    background-size: 70%;
+  }
+  
+  .mole.large {
+    background-size: 80%;
+  }
+  
+  .hole.up .mole {
+    top: 0;
+  }
+  
+  .cursor img {
+    position: absolute;
+    height: 125px;
+    z-index: 1000;
+  }
+  
+  @keyframes hit {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-30deg);
+    }
+  }
