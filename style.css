@@ -277,3 +277,35 @@
   #curiositys li {
     text-align: left;
   }
+
+  /* Footer */
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #3e8428;
+  }
+  
+  .social-networks {
+    text-align: center;
+    position: relative;
+    top: 35%;
+  }
+  
+  .find {
+    font-size: 15px;
+    color: #fafafa;
+    text-align: center;
+    position: relative;
+    top: 15%;
+  }
+  
+  .social-networks > li {
+    display: inline;
+    padding: 0 1% 0;
+  }
+  
+  .social-networks i {
+    font-size: 150%;
+    color: #fafafa;
+  }
