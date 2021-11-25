@@ -85,7 +85,7 @@
   }
   
   .icon:hover {
-    cursor: url("./hammersmall.png"), crosshair;
+    cursor: url("./assets/images/"), crosshair;
   }
   
   .icon:hover.hammerRotate {
