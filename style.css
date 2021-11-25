@@ -32,3 +32,45 @@
     margin-top: 10px;
   }
   
+  /* Navigation links */
+
+.nav {
+    height: 65px;
+    padding-top: 20px;
+    text-align: right;
+    background-color: #3e8428;
+    color: #fafafa;
+  }
+  
+  .menu {
+    font-size: 90%;
+    letter-spacing: 4px;
+    text-align: right;
+  }
+  label {
+    margin: 0 40px 0 0;
+    font-size: 30px;
+    text-align: right;
+    display: none;
+    width: 30px;
+    float: right;
+  }
+  
+  #toggle {
+    display: none;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+    margin-right: 30px;
+  }
+  
+  .menu a:hover {
+    border-bottom: 2px solid white;
+  }
+  
+  .active {
+    border-bottom: 1px solid white;
+  }
