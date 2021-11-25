@@ -97,7 +97,7 @@
     border: 1px solid black;
     margin: 0 auto;
     position: relative;
-    background-image: url("./assets/images/background.png");
+    background-image: url("/workspace/whac/assets/images/background.png");
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
