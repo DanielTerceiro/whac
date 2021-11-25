@@ -174,7 +174,7 @@
   .hole::after {
     content: "";
     display: block;
-    background-image: url("..images/sand1.png");
+    background-image: url("../images/sand1.png");
   
     position: absolute;
     width: 100%;
@@ -187,7 +187,7 @@
   }
   
   .mole {
-    background-image: url("..images/mole1.png");
+    background-image: url("../images/mole1.png");
     position: absolute;
     top: 100%;
     width: 100%;
