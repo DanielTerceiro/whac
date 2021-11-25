@@ -362,3 +362,10 @@
       text-align: right;
     }
   }
+
+  @media screen and (max-width: 500px) {
+    #introbox {
+      padding: 0 40px;
+    }
+  }
+  
