@@ -32,3 +32,15 @@ function pickRandomHole(holes) {
       if (!timeUp) popOut()
     }, time)
   }
+
+  function startGame() {
+    countdown = timeLimit / 1000
+    scoreBoard.textContent = 0
+    scoreBoard.style.display = 'block'
+    coundownnBoard.textContent = countdown
+    timeUp = false
+    score = 0
+    popOut()
+    setTimeout(function () {
+      timeUp = true
+    }, timeLimit)
