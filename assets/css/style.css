@@ -356,6 +356,7 @@
     .menu a {
       display: block;
       padding: 5px 0;
+      color: #3e8428;
     }
     #toggle:checked + .menu {
       display: block;
