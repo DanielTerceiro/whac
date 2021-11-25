@@ -60,3 +60,23 @@ function pickRandomHole(holes) {
           }
         }
       }, 1000)
+    }
+
+    startButton.addEventListener('click', startGame)
+console.log(icon)
+window.addEventListener('mousedown', () => {
+  icon.classList.add('hammerRotate')
+  console.log(icon)
+  // cursor.style.animation = 'hit 0.1s ease'
+  // setTimeout(() => {
+  //   cursor.style.removeProperty('animation')
+  // }, 100)
+})
+window.addEventListener('mouseup', () => {
+  icon.classList.remove('hammerRotate')
+  console.log(icon)
+  // cursor.style.animation = 'hit 0.1s ease'
+  // setTimeout(() => {
+  //   cursor.style.removeProperty('animation')
+  // }, 100)
+})
