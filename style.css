@@ -327,3 +327,38 @@
       padding: 0 100px;
     }
   }
+
+  /* For small screen sizes and down  */
+
+@media screen and (max-width: 800px) {
+    #logo {
+      margin-top: 10px;
+    }
+  
+    .whac {
+      margin-top: 15px;
+    }
+  
+    #introbox {
+      padding: 0 80px;
+    }
+  
+    label {
+      display: block;
+      cursor: pointer;
+    }
+    .menu {
+      text-align: right;
+      width: 100%;
+      display: none;
+      float: right;
+    }
+    .menu a {
+      display: block;
+      padding: 5px 0;
+    }
+    #toggle:checked + .menu {
+      display: block;
+      text-align: right;
+    }
+  }
