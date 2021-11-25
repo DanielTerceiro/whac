@@ -368,5 +368,8 @@
     #introbox {
       padding: 0 40px;
     }
+      .fullgame h2 {
+    font-size: 12px;
+  }
   }
   
