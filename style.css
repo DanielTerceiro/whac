@@ -219,7 +219,7 @@
     from {
       transform: rotate(0deg);
     }
-    to {
+        to {
       transform: rotate(-30deg);
     }
   }
