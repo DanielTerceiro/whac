@@ -85,11 +85,11 @@
   }
   
   .icon:hover {
-    cursor: url("./assets/images/hammersmall.png"), crosshair;
+    cursor: url("../images/hammersmall.png"), crosshair;
   }
   
   .icon:hover.hammerRotate {
-    cursor: url("./assets/images/hammerrotate.png"), crosshair;
+    cursor: url("../images/hammerrotate.png"), crosshair;
   }
   
   .wrapper {
@@ -97,7 +97,7 @@
     border: 1px solid black;
     margin: 0 auto;
     position: relative;
-    background-image: url("/workspace/whac/assets/images/background.png");
+    background-image: url("../images/background.png");
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@
     left: 0;
     width: 100%;
     height: 20%;
-    background-image: url("../assets/images/titulo.png");
+    background-image: url("../images/titulo.png");
     background-size: contain;
     overflow: hidden;
     background-position: center;
@@ -174,7 +174,7 @@
   .hole::after {
     content: "";
     display: block;
-    background-image: url("./assets/images/sand1.png");
+    background-image: url("..images/sand1.png");
   
     position: absolute;
     width: 100%;
@@ -187,7 +187,7 @@
   }
   
   .mole {
-    background-image: url("./assets/images/mole1.png");
+    background-image: url("..images/mole1.png");
     position: absolute;
     top: 100%;
     width: 100%;
