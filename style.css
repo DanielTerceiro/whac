@@ -223,3 +223,30 @@
       transform: rotate(-30deg);
     }
   }
+
+  /* How to Play */
+
+#how {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  #how h2 {
+    margin: 55px 0 15px 0;
+    font-size: 200%;
+    color: #3e8428;
+  }
+  
+  #introbox {
+    padding: 0 300px;
+    margin: 0 auto;
+  }
+  
+  #introbox h3 {
+    font-style: italic;
+    padding-bottom: 20px;
+  }
+  
+  #introbox li {
+    text-align: left;
+  }
