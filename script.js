@@ -44,3 +44,19 @@ function pickRandomHole(holes) {
     setTimeout(function () {
       timeUp = true
     }, timeLimit)
+
+    let startCountdown = setInterval(function () {
+        countdown -= 1
+        coundownnBoard.textContent = countdown
+        if (countdown < 0) {
+          countdown = 0
+          clearInterval(startCountdown)
+          coundownnBoard.textContent = 'Times Up !!'
+          const score1 = scoreBoard.innerHTML
+          const currentScore = sessionStorage.getItem('currentScore')
+          if (score1 > currentScore) {
+            sessionStorage.setItem('currentScore', score1)
+            highscore.innerHTML = score
+          }
+        }
+      }, 1000)
