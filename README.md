@@ -1,6 +1,6 @@
 # Whac a Mole <img src="assets/doc-readme/logo.png" width="50"> 
 
-![responsive screens ](assets/doc-readme/responsive.jpg) 
+![responsive screens ](assets/doc-readme/responsive.png) 
 
 ### Introduction 
 
@@ -138,7 +138,7 @@ The homepage is the only page for the website, consisting on the Header, followi
 
 Keeping it simple and with the main objetive to provide a quick game for the user. 
 
-![Desktop homepage](assets/doc-readme/desktop_homepage.jpg) 
+![Desktop homepage](assets/doc-readme/desktop_homepage.png) 
 
   
 
@@ -202,7 +202,7 @@ Link for the result of the test with the errors fixed:<br>
 
 [CSS](https://github.com/DanielTerceiro/whac/blob/main/assets/doc-readme/css-validator/css%20validator.png)<br> 
 
-[HTML] (https://github.com/DanielTerceiro/whac/blob/main/assets/doc-readme/html-validator/html.png)<br> 
+[HTML](https://github.com/DanielTerceiro/whac/blob/main/assets/doc-readme/html-validator/html.png)<br> 
 
 [JavaScript](https://github.com/DanielTerceiro/Yoga-Natural/blob/main/assets/doc-readme/html-validator/classes.jpg)<br> 
 
@@ -216,7 +216,7 @@ This website has been tested through the GTMetrix site, GTmetrix. Below is a scr
 
   
 
-![gtmetrix speed test](assets/doc-readme/test.jpg) 
+![gtmetrix speed test](assets/doc-readme/test.png) 
 
   
 
