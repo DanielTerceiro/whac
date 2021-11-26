@@ -202,7 +202,7 @@ Link for the result of the test with the errors fixed:<br>
 
 [CSS](https://github.com/DanielTerceiro/whac/blob/main/assets/doc-readme/css-validator/css%20validator.png)<br> 
 
-[HTML] https://github.com/DanielTerceiro/whac/blob/main/assets/doc-readme/html-validator/html.png)<br> 
+[HTML] (https://github.com/DanielTerceiro/whac/blob/main/assets/doc-readme/html-validator/html.png)<br> 
 
 [JavaScript](https://github.com/DanielTerceiro/Yoga-Natural/blob/main/assets/doc-readme/html-validator/classes.jpg)<br> 
 
